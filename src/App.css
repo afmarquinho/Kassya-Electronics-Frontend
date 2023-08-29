@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;900&family=Numans&display=swap");
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+/* //*GLOBAL UTILITIES */
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 90%;
+}
+.d-flex {
+  display: flex;
+}
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.justify-btw {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-evn {
+  justify-content: space-evenly;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.align-top {
+  align-items: flex-start;
+}
+.text-center {
+  text-align: center;
+}
+.bg-primario {
+  background-color: var(--primario);
+}
+.bg-secundario {
+  background-color: var(--secondary);
+}
+.m-0 {
+  margin: 0;
+}
+.p-0 {
+  padding: 0;
+}
+.m-0-auto {
+  margin: 0 auto;
+}
+.text-white {
+  color: white;
+}
+.text-black {
+  color: black;
+}
+.text-primario {
+  color: var(--primario);
+}
+.wdt-100 {
+  width: 100%;
+}
+.hgt-100 {
+  height: 100%;
+}
+.ovf-hidden {
+  overflow: hidden;
+}
+.fst-italic {
+  font-style: italic;
+}
+.obj-fit-cover {
+  object-fit: cover;
+}
+
+/* SPECIFIC UTILITIES */
+.mt-3rem{
+  margin-top: 6rem;
+}
