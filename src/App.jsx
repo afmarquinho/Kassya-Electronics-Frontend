@@ -3,7 +3,7 @@ import "./App.css";
 import "./normalize.css";
 import AppRouter from "./router/AppRouter";
 import { Global, css } from "@emotion/react";
-import { variablesEstilos } from "./variablesEstilos";
+import { colores } from "./kassya/helpers/variablesEstilos";
 
 function App() {
   return (
@@ -20,11 +20,11 @@ export default App;
 
 const globalStyles = css`
   :root {
-    --primary-color: ${variablesEstilos.primary};
-    --secondary-color: ${variablesEstilos.secondary};
-    --background-color: ${variablesEstilos.background};
-    --primary-font: ${variablesEstilos.fuentePrincipal};
-    --logo-font: ${variablesEstilos.fuenteLogo};
+    --primary-color: ${colores.primary};
+    --secondary-color: ${colores.secondary};
+    --background-color: ${colores.background};
+    --primary-font: ${colores.fuentePrincipal};
+    --logo-font: ${colores.fuenteLogo};
   }
 
   body {

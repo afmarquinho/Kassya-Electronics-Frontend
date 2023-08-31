@@ -75,6 +75,9 @@ html {
 .text-primario {
   color: var(--primario);
 }
+.text-bold{
+  font-weight: 900;
+}
 .wdt-100 {
   width: 100%;
 }

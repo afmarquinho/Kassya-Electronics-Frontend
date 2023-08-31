@@ -1,4 +1,4 @@
-import { Banner, HotSale, Navbar, PaymentMethods } from "../components";
+import { Banner, HotSale, Info, Navbar, PaymentMethods } from "../components";
 
 const HomePage = () => {
   return (
@@ -7,6 +7,7 @@ const HomePage = () => {
       <Banner />
       <PaymentMethods />
       <HotSale />
+      <Info/>
     </>
   );
 };

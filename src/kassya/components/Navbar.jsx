@@ -42,6 +42,7 @@ export default Navbar;
 const DivContainer = styled.div`
 position: fixed;
 width: 100%;
+z-index: 1000;
 `;
 
 const Div = styled.div`
