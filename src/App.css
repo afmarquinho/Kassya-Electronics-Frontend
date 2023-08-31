@@ -98,3 +98,15 @@ html {
 .banner-text{
   font-family: 'Gluten', cursive;
 }
+.photo1{
+  background-image: url(./assets/images/casa1.jpg);
+}
+.photo2{
+  background-image: url(./assets/images/casa2.jpg);
+}
+.photo3{
+  background-image: url(./assets/images/casa4.jpg);
+}
+.photo4{
+  background-image: url(./assets/images/casa13.jpg);
+}
